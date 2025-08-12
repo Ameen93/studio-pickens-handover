@@ -1,0 +1,56 @@
+{
+  "id": 1,
+  "banner": {
+    "backgroundImage": {
+      "desktop": "/images/faq/wig-heads-studio-banner.jpg",
+      "mobile": "/images/faq/wig-heads-studio-banner.jpg"
+    },
+    "height": "705px",
+    "objectPosition": "50% 15%",
+    "transform": {
+      "scale": 1.2,
+      "translateX": 0,
+      "translateY": 0,
+      "flip": false
+    }
+  },
+  "items": [
+    {
+      "id": 1,
+      "question": "HOW LONG DOES IT TAKE TO CREATE A CUSTOM WIG?",
+      "answer": "Anywhere from 50 to 150 hours. All our wigs are made by hand in our New York and Beverly Hills Studios. Our lead time is typically 4-8 weeks, pending availability.",
+      "order": 1,
+      "category": "process"
+    },
+    {
+      "id": 2,
+      "question": "CAN I SEND REFERENCE IMAGES OR INSPIRATION?",
+      "answer": "Absolutely! References help us tailor the design to your vision.",
+      "order": 2,
+      "category": "consultation"
+    },
+    {
+      "id": 3,
+      "question": "WHAT'S THE DIFFERENCE BETWEEN A PRIVATE WEAR WIG AND ONE FOR ENTERTAINMENT INDUSTRY USE?",
+      "answer": "Private wear wigs are ultra-personalized, often crafted for high-profile clients in film, fashion, or public life. They're made for naturalism, comfort, and discretion in everyday or red carpet settings. Wigs for Industry use, on the other hand, are designed for stage, screen, or editorial – built to withstand the scrutinizing eye of HD cameras, or withstand 8 shows a week on the broadway stage.",
+      "order": 3,
+      "category": "product"
+    },
+    {
+      "id": 4,
+      "question": "IS THE HAIR ETHICALLY SOURCED?",
+      "answer": "Yes, we work with trusted suppliers across the globe who prioritize ethical and sustainable sourcing. All of our hair is processed in house to ensure proper cuticle alignment.",
+      "order": 4,
+      "category": "ethics"
+    },
+    {
+      "id": 5,
+      "question": "DO YOU OFFER VIRTUAL CONSULTATIONS?",
+      "answer": "Not at this time, but in-person consultations are available at our studios in Beverly Hills or New York City.",
+      "order": 5,
+      "category": "consultation"
+    }
+  ],
+  "createdAt": "2024-07-15T19:00:00.000Z",
+  "updatedAt": "2025-07-17T14:38:00.000Z"
+}

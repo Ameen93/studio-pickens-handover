@@ -1,0 +1,408 @@
+{
+  "banner": {
+    "desktopImage": "/images/work/Desktop_WORK Hero Banner v2.png",
+    "mobileImage": "/images/work/Mobile_WORK Hero Banner v2.png",
+    "title": "SELECTED WORK",
+    "subtitle": "We design more than wigs - we build heads of hair. Every piece is an elevation of identity, confidence, and craft. Step inside the world of Studio Pickens. Here's a glimpse into what we do best.",
+    "transform": {
+      "scale": 1,
+      "translateX": 0,
+      "translateY": 0,
+      "flip": false
+    }
+  },
+  "sectionBanners": [
+    {
+      "image": "/images/work/banners/1 film & tv banner.jpg",
+      "category": "FILM & TV",
+      "transform": {
+        "scale": 1,
+        "translateX": 0,
+        "translateY": 0,
+        "flip": false
+      }
+    },
+    {
+      "image": "/images/work/banners/2 editorial banner.jpg",
+      "category": "EDITORIAL",
+      "transform": {
+        "scale": 1,
+        "translateX": 0,
+        "translateY": 0,
+        "flip": false
+      }
+    },
+    {
+      "image": "/images/work/banners/3 theater banner.jpg",
+      "category": "THEATRE",
+      "transform": {
+        "scale": 1,
+        "translateX": 0,
+        "translateY": 0,
+        "flip": false
+      }
+    },
+    {
+      "image": "/images/work/banners/4 music banner.jpg",
+      "category": "MUSIC VIDEO",
+      "transform": {
+        "scale": 1,
+        "translateX": 0,
+        "translateY": 0,
+        "flip": false
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "THE BEAR",
+      "client": "Hulu",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/home-work/Home_project thumbnail1.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail1.jpg",
+      "alt": "The Bear - Jamie Lee Curtis",
+      "description": "Hair styling for Emmy-winning series The Bear featuring Jamie Lee Curtis on Hulu.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "left",
+      "order": 1,
+      "content": {
+        "stylist": "ally vickers",
+        "photographer": "jamie lee curtis",
+        "date": "hulu",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "HERE WE ARE",
+      "client": "West End Theatre",
+      "category": "THEATRE",
+      "year": 2024,
+      "image": "/images/work/home-work/Home_project thumbnail2.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail2.jpg",
+      "alt": "Here We Are - Jane Skrionski, Jesse Tyler Ferguson",
+      "description": "Hair design for West End theatrical production featuring Jane Skrionski and Jesse Tyler Ferguson.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "right",
+      "order": 2,
+      "content": {
+        "photographer": "Jane krakowski, Jesse Tyler Ferguson, Martha plimpton",
+        "stylist": "studio pickens",
+        "date": "broadway and west end theatre",
+        "labels": {
+          "photographer": "FEATURING",
+          "stylist": "HAIR AND MAKEUP DESIGN",
+          "date": "PRESENTED AT"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "L'OFFICIEL",
+      "client": "L'Officiel Magazine",
+      "category": "EDITORIAL",
+      "year": 2024,
+      "image": "/images/work/home-work/Home_project thumbnail3.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail3.jpg",
+      "alt": "L'Officiel - Nicole Kidman",
+      "description": "Editorial hair styling for L'Officiel Magazine April 2024 issue featuring Nicole Kidman.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "left",
+      "order": 3
+    },
+    {
+      "id": 4,
+      "title": "THE FIRST LADY",
+      "client": "Showtime",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/home-work/Home_project thumbnail4.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail4.jpg",
+      "alt": "The First Lady - Michelle Pfeiffer, Kiefer Sutherland",
+      "description": "Hair design for Showtime's The First Lady featuring Michelle Pfeiffer and Kiefer Sutherland.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "right",
+      "order": 4,
+      "content": {
+        "stylist": "Jamie Leigh McIntosh",
+        "photographer": "Michelle Pfeiffer, Dakota fanning",
+        "date": "showtime",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "LOEWE",
+      "client": "Loewe Fashion",
+      "category": "EDITORIAL",
+      "year": 2024,
+      "image": "/images/work/home-work/Home_project thumbnail5.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail5.jpg",
+      "alt": "Loewe - Dan Levy, Aubrey Plaza",
+      "description": "Editorial hair design for Loewe March 2024 campaign featuring Dan Levy and Aubrey Plaza.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "left",
+      "order": 5
+    },
+    {
+      "id": 6,
+      "title": "THE WHALE",
+      "client": "A24 Films",
+      "category": "FILM & TV",
+      "year": 2022,
+      "image": "/images/work/home-work/Home_project thumbnail6.jpg",
+      "mobileImage": "/images/work/home-work/Mobile Home_project thumbnail6.jpg",
+      "alt": "The Whale - Brendan Fraser",
+      "description": "Hair design for acclaimed film The Whale featuring Brendan Fraser's Oscar-winning performance.",
+      "featured": true,
+      "showOnWorkPage": false,
+      "side": "right",
+      "order": 6
+    },
+    {
+      "id": 7,
+      "title": "NINE PERFECT STRANGERS",
+      "client": "Hulu",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/new-work/nine-perfect-strangers.jpg",
+      "mobileImage": "/images/work/new-work/nine-perfect-strangers.jpg",
+      "alt": "Nine Perfect Strangers - Christine Baranski",
+      "description": "Hair design for Hulu series Nine Perfect Strangers featuring Christine Baranski.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "left",
+      "order": 7,
+      "content": {
+        "stylist": "Nicki Gooley",
+        "photographer": "Christine Baranski",
+        "date": "Hulu",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "EDITORIAL",
+      "client": "Editorial Magazine",
+      "category": "EDITORIAL",
+      "year": 2024,
+      "image": "/images/work/new-work/beyonce-editorial.png",
+      "mobileImage": "/images/work/new-work/beyonce-editorial.png",
+      "alt": "Editorial photoshoot",
+      "description": "Editorial hair and makeup design.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "center",
+      "order": 8
+    },
+    {
+      "id": 9,
+      "title": "THE LAST SHOWGIRL",
+      "client": "Independent",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/new-work/the-last-show-girl.jpg",
+      "mobileImage": "/images/work/new-work/the-last-show-girl.jpg",
+      "alt": "The Last Showgirl - Jamie Lee Curtis",
+      "description": "Hair design for independent film The Last Showgirl featuring Jamie Lee Curtis.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "right",
+      "order": 9,
+      "content": {
+        "stylist": "Katy McClintock",
+        "photographer": "Jamie Lee Curtis",
+        "date": "Independent",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "STEREOPHONIC",
+      "client": "Broadway Theatre",
+      "category": "THEATRE",
+      "year": 2024,
+      "image": "/images/work/new-work/stereo-phonic.jpg",
+      "mobileImage": "/images/work/new-work/stereo-phonic.jpg",
+      "alt": "Stereophonic - Will Brill, Andrew R. Butler, Eli Gelb",
+      "description": "Hair and makeup design for Broadway production Stereophonic.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "left",
+      "order": 10,
+      "content": {
+        "stylist": "Studio Pickens",
+        "photographer": "Will Brill, Andrew R. Butler And Eli Gelb",
+        "date": "Broadway and West End Theatre",
+        "labels": {
+          "stylist": "HAIR & MAKEUP DESIGN",
+          "photographer": "FEATURING",
+          "date": "PRESENTED AT"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "title": "HOUSE OF DAVID",
+      "client": "Amazon Prime Video",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/new-work/house-of-david.png",
+      "mobileImage": "/images/work/new-work/house-of-david.png",
+      "alt": "House Of David - Stephen Lang",
+      "description": "Hair design for Amazon Prime Video series House Of David featuring Stephen Lang.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "right",
+      "order": 11,
+      "content": {
+        "stylist": "Chris Glimsdale",
+        "photographer": "Stephen Lang",
+        "date": "Amazon Prime Video",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "MUSIC VIDEO",
+      "client": "Music Production",
+      "category": "MUSIC VIDEO",
+      "year": 2024,
+      "image": "/images/work/Billie Eilish.webp",
+      "mobileImage": "/images/work/Billie Eilish.webp",
+      "alt": "Music video production",
+      "description": "Hair and makeup design for music video production.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "center",
+      "order": 12
+    },
+    {
+      "id": 13,
+      "title": "THE KILLER",
+      "client": "Universal Pictures",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/new-work/the-killer.jpg",
+      "mobileImage": "/images/work/new-work/the-killer.jpg",
+      "alt": "The Killer - Nathalie Emmanuel",
+      "description": "Hair design for Universal Pictures film The Killer featuring Nathalie Emmanuel.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "left",
+      "order": 13,
+      "content": {
+        "stylist": "Shannon Bakeman",
+        "photographer": "Nathalie Emmanuel",
+        "date": "Universal Pictures",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "title": "ROMEO & JULIET",
+      "client": "Broadway Theatre",
+      "category": "THEATRE",
+      "year": 2024,
+      "image": "/images/work/new-work/romeo-and-juliet.png",
+      "mobileImage": "/images/work/new-work/romeo-and-juliet.png",
+      "alt": "Romeo & Juliet - Kit Connor, Rachel Zegler",
+      "description": "Hair and makeup design for Broadway production Romeo & Juliet featuring Kit Connor and Rachel Zegler.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "right",
+      "order": 14,
+      "content": {
+        "stylist": "Studio Pickens",
+        "photographer": "Kit Connor, Rachel Zegler",
+        "date": "Broadway and West End Theatre",
+        "labels": {
+          "stylist": "HAIR & MAKEUP DESIGN",
+          "photographer": "FEATURING",
+          "date": "PRESENTED AT"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "title": "BULLET TRAIN",
+      "client": "Sony Pictures",
+      "category": "FILM & TV",
+      "year": 2024,
+      "image": "/images/work/new-work/bullet-train.jpg",
+      "mobileImage": "/images/work/new-work/bullet-train.jpg",
+      "alt": "Bullet Train - Brian Tyree Henry",
+      "description": "Hair design for Sony Pictures film Bullet Train featuring Brian Tyree Henry.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "left",
+      "order": 15,
+      "content": {
+        "stylist": "Janine Rath Thompson",
+        "photographer": "Brian Tyree Henry",
+        "date": "Sony Pictures",
+        "labels": {
+          "stylist": "HAIR DESIGNER",
+          "photographer": "CAST",
+          "date": "NETWORK"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "title": "TEETH",
+      "client": "Playwrights Horizons",
+      "category": "THEATRE",
+      "year": 2024,
+      "image": "/images/work/new-work/teeth.png",
+      "mobileImage": "/images/work/new-work/teeth.png",
+      "alt": "Teeth - Alyse Alan Louis",
+      "description": "Hair and makeup design for Playwrights Horizons production Teeth featuring Alyse Alan Louis.",
+      "featured": false,
+      "showOnWorkPage": true,
+      "side": "right",
+      "order": 16,
+      "content": {
+        "stylist": "Studio Pickens",
+        "photographer": "Alyse Alan Louis, Will Connolly, Jason Gotay, Andy Karl, and Jared Loftin",
+        "date": "Playwrights Horizons",
+        "labels": {
+          "stylist": "HAIR & MAKEUP DESIGN",
+          "photographer": "FEATURING",
+          "date": "PRODUCED BY"
+        }
+      }
+    }
+  ]
+}

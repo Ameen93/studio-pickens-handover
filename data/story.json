@@ -1,0 +1,653 @@
+{
+  "id": 1,
+  "circles": [
+    {
+      "id": 1,
+      "name": "Roots Circle",
+      "type": "simple",
+      "position": {
+        "desktop": {
+          "marginTop": "0px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        },
+        "mobile": {
+          "marginTop": "0px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(299px, 70vw, 513px)",
+          "height": "clamp(299px, 70vw, 513px)"
+        },
+        "mobile": {
+          "width": "clamp(299px, 70vw, 513px)",
+          "height": "clamp(299px, 70vw, 513px)"
+        }
+      },
+      "content": {
+        "title": "Roots",
+        "description": ""
+      },
+      "items": []
+    },
+    {
+      "id": 2,
+      "name": "First Major Movie Set",
+      "type": "dashed_rotating",
+      "position": {
+        "desktop": {
+          "marginTop": "-80px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        },
+        "mobile": {
+          "marginTop": "50px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        },
+        "mobile": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        }
+      },
+      "content": {
+        "title": "First Major Movie Set",
+        "description": "Lorem ipsum dolor sit amet consectetur. Et habitant bibendum arcu nec elit eu. Donec quis in neque ligula id nunc in non lacus. Amet sed risus lacinia sed. Quis ultricies vestibulum eleifend dignissim auctor laoreet feugiat."
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid7.JPG",
+            "alt": "Polaroid 7",
+            "year": "2017"
+          },
+          "position": {
+            "desktop": {
+              "top": "45%",
+              "left": "-3%",
+              "transform": "translate(-50%, -50%)"
+            },
+            "mobile": {
+              "bottom": "5%",
+              "left": "50%",
+              "transform": "translate(-50%, 50%)"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          }
+        },
+        {
+          "id": 2,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid7.JPG",
+            "alt": "Polaroid 7",
+            "year": "2017"
+          },
+          "position": {
+            "desktop": {
+              "top": "55%",
+              "right": "-3%",
+              "transform": "translate(50%, -50%)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "content": {
+            "text": "process 2017",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "top": "20%",
+              "right": "6%",
+              "transform": "translate(50%, -50%)"
+            },
+            "mobile": {
+              "top": "10%",
+              "right": "30%",
+              "transform": "translate(50%, -50%) rotate(-8.79deg)"
+            }
+          },
+          "rotation": {
+            "desktop": 0,
+            "mobile": -8.79
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          }
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "content": {
+            "text": "word of mouth\nspreads",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "20%",
+              "left": "3%",
+              "transform": "translate(-50%, 50%) rotate(-8deg)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "rotation": {
+            "desktop": -8,
+            "mobile": 0
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Third Circle",
+      "type": "simple",
+      "position": {
+        "desktop": {
+          "marginTop": "clamp(-262.5px, -52.5vw, -525px)",
+          "marginLeft": "clamp(0px, 5vw, 120px)",
+          "justifyContent": "start"
+        },
+        "mobile": {
+          "marginTop": "-50px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(324px, 65vw, 648px)",
+          "height": "clamp(324px, 65vw, 648px)"
+        },
+        "mobile": {
+          "width": "clamp(324px, 65vw, 648px)",
+          "height": "clamp(324px, 65vw, 648px)"
+        }
+      },
+      "content": {
+        "title": "",
+        "description": ""
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid6.JPG",
+            "alt": "Polaroid 6",
+            "year": "2018"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "5%",
+              "left": "45%",
+              "transform": "translate(-50%, 50%)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mastering The Texture Craft",
+      "type": "mixed",
+      "position": {
+        "desktop": {
+          "marginTop": "clamp(-240px, -40vw, -400px)",
+          "marginLeft": "clamp(100px, 10vw, 200px)",
+          "justifyContent": "center"
+        },
+        "mobile": {
+          "marginTop": "-80px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(324px, 65vw, 648px)",
+          "height": "clamp(324px, 65vw, 648px)"
+        },
+        "mobile": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        }
+      },
+      "content": {
+        "title": "Mastering The Texture Craft",
+        "description": "Lorem ipsum dolor sit amet consectetur. Et habitant bibendum arcu nec elit eu. Donec quis in neque ligula id nunc in non lacus. Amet sed risus lacinia sed. Quis ultricies vestibulum eleifend dignissim auctor laoreet feugiat."
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid6.JPG",
+            "alt": "Polaroid 6",
+            "year": "2018"
+          },
+          "position": {
+            "desktop": {
+              "display": "none"
+            },
+            "mobile": {
+              "bottom": "5%",
+              "left": "45%",
+              "transform": "translate(-50%, 50%)"
+            }
+          },
+          "visibility": {
+            "desktop": false,
+            "mobile": true
+          }
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "content": {
+            "text": "first milestone order",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "5%",
+              "left": "65%",
+              "transform": "translate(-50%, 50%) rotate(7.56deg)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "rotation": {
+            "desktop": 7.56,
+            "mobile": 0
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "content": {
+            "text": "word of mouth\nspreads",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "display": "none"
+            },
+            "mobile": {
+              "top": "12%",
+              "left": "25%",
+              "transform": "translate(-50%, -50%) rotate(-8.79deg)"
+            }
+          },
+          "rotation": {
+            "desktop": 0,
+            "mobile": -8.79
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": false,
+            "mobile": true
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Theatre Theatre and More Theatre",
+      "type": "dashed_rotating",
+      "position": {
+        "desktop": {
+          "marginTop": "clamp(-205px, -33vw, -330px)",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        },
+        "mobile": {
+          "marginTop": "-60px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        },
+        "mobile": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        }
+      },
+      "content": {
+        "title": "theatre theatre and more theatre",
+        "description": "Lorem ipsum dolor sit amet consectetur. Et habitant bibendum arcu nec elit eu. Donec quis in neque ligula id nunc in non lacus. Amet sed risus lacinia sed. Quis ultricies vestibulum eleifend dignissim auctor laoreet feugiat."
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid9.JPG",
+            "alt": "Polaroid 9",
+            "year": "2020"
+          },
+          "position": {
+            "desktop": {
+              "top": "45%",
+              "left": "-3%",
+              "transform": "translate(-50%, -50%)"
+            },
+            "mobile": {
+              "bottom": "-10%",
+              "left": "50%",
+              "transform": "translate(-50%, 50%)"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          }
+        },
+        {
+          "id": 2,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid9.JPG",
+            "alt": "Polaroid 9",
+            "year": "2020"
+          },
+          "position": {
+            "desktop": {
+              "top": "55%",
+              "right": "-3%",
+              "transform": "translate(50%, -50%)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 3,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid13.JPG",
+            "alt": "Polaroid 13",
+            "year": "2024"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "-5%",
+              "left": "50%",
+              "transform": "translate(-50%, 50%)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "content": {
+            "text": "first\nmilestone\norder",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "display": "none"
+            },
+            "mobile": {
+              "top": "8%",
+              "right": "25%",
+              "transform": "translate(50%, -50%) rotate(8.79deg)"
+            }
+          },
+          "rotation": {
+            "desktop": 0,
+            "mobile": 8.79
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": false,
+            "mobile": true
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "In His Signature Era",
+      "type": "mixed",
+      "position": {
+        "desktop": {
+          "marginTop": "clamp(25px, 5vw, 50px)",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        },
+        "mobile": {
+          "marginTop": "-140px",
+          "marginLeft": "0px",
+          "justifyContent": "center"
+        }
+      },
+      "size": {
+        "desktop": {
+          "width": "clamp(375px, 75vw, 750px)",
+          "height": "clamp(375px, 75vw, 750px)"
+        },
+        "mobile": {
+          "width": "clamp(478px, 80vw, 961px)",
+          "height": "clamp(478px, 80vw, 961px)"
+        }
+      },
+      "content": {
+        "title": "In his signature era",
+        "description": "Lorem ipsum dolor sit amet consectetur. Et habitant bibendum arcu nec elit eu. Donec quis in neque ligula id nunc in non lacus. Amet sed risus lacinia sed. Quis ultricies vestibulum eleifend dignissim auctor laoreet feugiat."
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid13.JPG",
+            "alt": "Polaroid 13",
+            "year": "2024"
+          },
+          "position": {
+            "desktop": {
+              "top": "45%",
+              "left": "-40%",
+              "transform": "translate(-50%, -50%)"
+            },
+            "mobile": {
+              "bottom": "5%",
+              "left": "50%",
+              "transform": "translate(-50%, 50%)"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          }
+        },
+        {
+          "id": 2,
+          "type": "polaroid",
+          "content": {
+            "image": "/images/polaroids/polaroid13.JPG",
+            "alt": "Polaroid 13",
+            "year": "2024"
+          },
+          "position": {
+            "desktop": {
+              "top": "55%",
+              "right": "-40%",
+              "transform": "translate(50%, -50%)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "content": {
+            "text": "requested by\nname",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "top": "35%",
+              "left": "21.5%",
+              "transform": "translate(-50%, -50%) rotate(-7.5deg)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "rotation": {
+            "desktop": -7.5,
+            "mobile": 0
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "content": {
+            "text": "custom visions\nand requests",
+            "font": "font-lovtony"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "10%",
+              "left": "65%",
+              "transform": "translate(-50%, 50%) rotate(-1.64deg)"
+            },
+            "mobile": {
+              "display": "none"
+            }
+          },
+          "rotation": {
+            "desktop": -1.64,
+            "mobile": 0
+          },
+          "fontSize": {
+            "desktop": "clamp(40px, 8vw, 135px)",
+            "mobile": "61px"
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          }
+        },
+        {
+          "id": 5,
+          "type": "button",
+          "content": {
+            "text": "Contact",
+            "action": "/contact"
+          },
+          "position": {
+            "desktop": {
+              "bottom": "-48px",
+              "left": "50%",
+              "transform": "translate(-50%, 0%)"
+            },
+            "mobile": {
+              "bottom": "0%",
+              "left": "50%",
+              "transform": "translate(-50%, 50%)"
+            }
+          },
+          "visibility": {
+            "desktop": true,
+            "mobile": true
+          }
+        }
+      ]
+    }
+  ],
+  "createdAt": "2024-07-15T19:00:00.000Z",
+  "updatedAt": "2025-07-16T02:10:00.000Z"
+}

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lovtony';
+  src: url('../public/fonts/Lovtony Script.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cutive Mono';
+  src: url('../public/fonts/CutiveMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'proxima-nova-extra-wide', 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent orphaned words on mobile */
+@media (max-width: 768px) {
+  p, h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /* Fallback for browsers that don't support text-wrap: balance */
+  @supports not (text-wrap: balance) {
+    p, h1, h2, h3, h4, h5, h6 {
+      /* Add non-breaking space between last two words to prevent orphans */
+      word-spacing: -0.05em;
+    }
+  }
+}
