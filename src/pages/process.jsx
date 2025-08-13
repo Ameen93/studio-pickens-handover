@@ -141,9 +141,9 @@ const ProcessPage = () => {
                 key={step.id}
                 className={`flex flex-col ${
                   step.alignment === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'
-                } items-center mb-16 gap-8`}
+                } items-center mb-16 gap-4`}
               >
-                <div className={`flex justify-center ${step.alignment === 'right' ? 'lg:justify-start lg:pl-16' : 'lg:justify-end lg:pr-96'} w-full lg:w-[55%] lg:order-1 order-2`}>
+                <div className={`flex justify-center ${step.alignment === 'right' ? 'lg:justify-end lg:pl-16' : 'lg:justify-end lg:pr-16'} w-full lg:w-[55%] lg:order-1 order-2`}>
                   <div 
                     className="relative overflow-hidden rounded-full flex-shrink-0"
                     style={{
@@ -179,24 +179,34 @@ const ProcessPage = () => {
                     />
                   </div>
                 </div>
-                <div className={`w-full lg:w-[45%] ${step.alignment === 'right' ? 'lg:pl-14' : 'lg:pr-14'} lg:order-2 order-1 lg:text-left text-center px-4 lg:px-0`}>
-                  <h2 className="font-proxima-wide font-bold text-studio-blue uppercase mb-4" style={{ fontSize: '24px' }}>
+                <div className={`w-full ${step.id === 5 ? 'lg:w-[30%]' : step.id === 3 ? 'lg:w-[34%]' : 'lg:w-[45%]'} ${step.alignment === 'right' ? 'lg:pl-6' : 'lg:pr-6'} lg:order-2 order-1 lg:text-left text-center px-4 lg:px-0`}>
+                  <h2 className="font-proxima-wide font-bold text-studio-blue uppercase mb-4" style={{ fontSize: '36px' }}>
                     <span className="lg:hidden">
                       {step.id === 1 ? (
                         <>90% science.<br />10% wigmaking.<br />100% precision.</>
                       ) : (
-                        step.title
+                        step.title.split('\n').map((line, index) => (
+                          <React.Fragment key={index}>
+                            {line}
+                            {index < step.title.split('\n').length - 1 && <br />}
+                          </React.Fragment>
+                        ))
                       )}
                     </span>
                     <span className="hidden lg:inline">
                       {step.id === 1 ? (
                         <>90% science.<br />10% wigmaking.<br />100% precision.</>
                       ) : (
-                        step.title
+                        step.title.split('\n').map((line, index) => (
+                          <React.Fragment key={index}>
+                            {line}
+                            {index < step.title.split('\n').length - 1 && <br />}
+                          </React.Fragment>
+                        ))
                       )}
                     </span>
                   </h2>
-                  <p className="font-proxima text-studio-blue leading-relaxed" style={{ fontSize: '16px' }}>
+                  <p className={`font-proxima text-studio-blue leading-relaxed ${step.id === 1 ? 'lg:w-[70%]' : step.id === 4 ? 'lg:w-[65%]' : ''}`} style={{ fontSize: '16px' }}>
                     {step.description}
                   </p>
                 </div>
