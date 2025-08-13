@@ -2,7 +2,7 @@ import React from 'react';
 import { useWorkData } from '../hooks';
 
 const WorkBanners = ({ onBannerClick }) => {
-  const { workData, loading, error } = useWorkData();
+  const { workData, loading } = useWorkData();
   // Include all banners including MUSIC VIDEO
   const sectionBanners = workData.sectionBanners || [];
 

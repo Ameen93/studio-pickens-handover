@@ -1,46 +1,153 @@
-# Getting Started with Create React App
+# Studio Pickens - Production Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A premium creative studio website built with React and TypeScript, featuring responsive design and modern animations.
+
+## Project Overview
+
+Studio Pickens is a high-end creative studio website showcasing:
+- Premium responsive design optimized for desktop and mobile
+- Smooth scroll animations and floating effects
+- High-quality image galleries with custom layouts
+- Professional contact and FAQ sections
+
+## Tech Stack
+
+### Frontend
+- **React 19** with TypeScript
+- **Tailwind CSS** for styling
+- **React Testing Library** for testing
+- **Create React App** build system
+
+### Backend
+- **Express.js** server for API endpoints
+- **JSON file storage** for content data
+- **CORS** enabled for cross-origin requests
+
+## Getting Started
+
+### Prerequisites
+- Node.js 16+ and npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd studio-pickens-handover
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development servers:
+
+**Frontend** (runs on http://localhost:3000):
+```bash
+npm start
+```
+
+**Backend** (runs on http://localhost:3001):
+```bash
+npm run server
+```
+
+4. Open http://localhost:3000 to view the website
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── common/        # Shared components (Header, Footer, etc.)
+│   ├── sections/      # Page-specific sections
+│   └── ui/           # Base UI elements
+├── pages/            # Main pages (Home, Work, Process, Story, etc.)
+├── hooks/            # Custom React hooks for data fetching
+├── constants/        # Typography system and animations
+├── utils/            # Utilities and API client
+└── __tests__/        # Test files
+
+data/                 # JSON content files
+public/
+├── images/          # Static image assets
+└── data/           # Public JSON data files
+
+server.js            # Express server
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Start React development server
+- `npm run build` - Build for production
+- `npm test` - Run tests
+- `npm run server` - Start Express API server
 
-### `npm start`
+## Content Management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Content is stored in JSON files in the `data/` directory:
+- `hero.json` - Homepage hero section
+- `work.json` - Portfolio projects
+- `process.json` - Process page content
+- `story.json` - About/story content
+- `locations.json` - Location information
+- `contact.json` - Contact details
+- `faq.json` - FAQ items
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## API Endpoints
 
-### `npm test`
+The server provides read-only API endpoints:
+- `GET /api/hero` - Hero section data
+- `GET /api/work` - Work portfolio data
+- `GET /api/process` - Process page data
+- `GET /api/story` - Story page data
+- `GET /api/locations` - Location data
+- `GET /api/contact` - Contact information
+- `GET /api/faq` - FAQ data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design Features
 
-### `npm run build`
+### Typography
+- **Primary Font**: Proxima Nova Extra Wide
+- **Decorative Font**: Lovtony Script
+- **Colors**: Background `#F8F7F7`, Primary `#0025B8`, Accent `#FF7E46`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Responsive Design
+- Mobile-first approach with Tailwind breakpoints
+- Optimized layouts for 1080p and 1440p+ displays
+- Touch-friendly navigation and interactions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Animations
+- Scroll-triggered animations with floating effects
+- Smooth transitions and hover states
+- Rotating elements and carousel components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Building for Production
 
-### `npm run eject`
+1. Build the React app:
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. The built files will be in the `build/` directory
+3. Deploy both the built React app and the Express server
+4. Ensure the server can serve static files and API routes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Browser Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Chrome, Firefox, Safari (latest versions)
+- Mobile browsers on iOS and Android
+- Optimized for desktop viewing with responsive mobile support
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Performance
 
-## Learn More
+- Optimized images with proper sizing
+- Efficient component rendering with React 19
+- Minimal JavaScript bundle with code splitting
+- Fast loading times with responsive image handling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Note**: This is a production-ready handover version with all administrative features and development tools removed for security and simplicity.

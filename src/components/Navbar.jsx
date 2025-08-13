@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { NAVIGATION_LINKS } from '../constants';
-import { TYPOGRAPHY_CLASSES } from '../constants/typography';
 import NavLink from './common/NavLink';
 
 const navigate = (path) => {

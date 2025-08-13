@@ -3,7 +3,7 @@ import { useFAQData } from '../hooks/useFAQData';
 
 const FAQSection = () => {
   const [openItem, setOpenItem] = useState(0); // First item open by default
-  const { faqData, loading, error } = useFAQData();
+  const { faqData, loading } = useFAQData();
 
   const toggleItem = (index) => {
     setOpenItem(openItem === index ? -1 : index);

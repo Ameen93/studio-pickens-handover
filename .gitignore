@@ -191,3 +191,11 @@ backup-*
 restore-*
 *.backup.json
 migration-logs/
+
+# Claude Code files
+*.md
+!README.md
+!CLAUDE.md
+TODO.md
+MEMORY.md
+PROJECT_CONTEXT.md

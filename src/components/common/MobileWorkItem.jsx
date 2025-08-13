@@ -61,41 +61,41 @@ const MobileWorkItem = ({ project, content, onCategoryClick }) => {
         }`}
       >
         {/* Title */}
-        <h5 className="font-proxima-wide font-bold text-studio-blue text-lg uppercase tracking-wide mb-4">
+        <h5 className="font-proxima-wide font-bold text-studio-blue text-3xl uppercase tracking-wide mb-4">
           {content?.title || project.title}
         </h5>
 
         {/* Photographer Section */}
         <div className="mb-3">
-          <h6 className="font-proxima-nova font-semibold text-studio-blue text-xs uppercase tracking-wide mb-8">
+          <h6 className="font-proxima-nova font-semibold text-studio-blue text-base uppercase tracking-wide mb-4">
             {content?.labels?.photographer || 'PHOTOGRAPHER'}
           </h6>
-          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-4">
+          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-1">
             {content?.photographer}
           </p>
-          <div className="w-full h-px border-b border-dotted border-studio-blue mt-4"></div>
+          <div className="w-full h-px border-b border-dotted border-studio-blue mt-1"></div>
         </div>
 
         {/* Stylist Section */}
         <div className="mb-3">
-          <h6 className="font-proxima-nova font-semibold text-studio-blue text-xs uppercase tracking-wide mb-8">
+          <h6 className="font-proxima-nova font-semibold text-studio-blue text-base uppercase tracking-wide mb-4">
             {content?.labels?.stylist || 'STYLIST'}
           </h6>
-          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-4">
+          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-1">
             {content?.stylist}
           </p>
-          <div className="w-full h-px border-b border-dotted border-studio-blue mt-4"></div>
+          <div className="w-full h-px border-b border-dotted border-studio-blue mt-1"></div>
         </div>
 
         {/* Date Section */}
         <div>
-          <h6 className="font-proxima-nova font-semibold text-studio-blue text-xs uppercase tracking-wide mb-8">
+          <h6 className="font-proxima-nova font-semibold text-studio-blue text-base uppercase tracking-wide mb-4">
             {content?.labels?.date || 'DATE'}
           </h6>
-          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-4">
+          <p className="font-['Cutive_Mono'] font-normal uppercase text-[1.5rem] leading-[50%] text-studio-blue py-1">
             {content?.date}
           </p>
-          <div className="w-full h-px border-b border-dotted border-studio-blue mt-4"></div>
+          <div className="w-full h-px border-b border-dotted border-studio-blue mt-1"></div>
         </div>
       </div>
     </div>

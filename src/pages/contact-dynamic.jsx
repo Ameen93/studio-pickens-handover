@@ -18,7 +18,7 @@ const ContactPage = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState(false);
 
-  const { contactData, loading: contactLoading, error: contactError } = useContactData();
+  const { loading: contactLoading, error: contactError } = useContactData();
   const { locationsData, loading: locationsLoading, error: locationsError } = useLocationsData();
 
   const handleInputChange = (e) => {

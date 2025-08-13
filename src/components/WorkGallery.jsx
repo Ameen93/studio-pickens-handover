@@ -63,7 +63,7 @@ const WorkGallery = React.memo(forwardRef(({ filter = 'ALL MEDIA', onCategoryCli
         originalSide: project.side // Keep track of original side for reference
       };
     });
-  }, [filter, rawFilteredProjects]);
+  }, [filter, rawFilteredProjects, projects]);
 
   // Memoize gallery height calculation
   const galleryHeight = useMemo(() => {

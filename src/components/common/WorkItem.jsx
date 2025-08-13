@@ -78,7 +78,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
         <div className="flex-1 flex flex-col justify-center space-y-2">
           {/* Photographer Section */}
           <div>
-            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-4"
+            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-0 lg:mb-4"
                 style={{ fontSize: 'clamp(8px, 0.83vw, 12px)' }}>
               {content?.labels?.photographer || 'PHOTOGRAPHER'}
             </h6>
@@ -91,7 +91,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
 
           {/* Stylist Section */}
           <div>
-            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-4"
+            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-0 lg:mb-4"
                 style={{ fontSize: 'clamp(8px, 0.83vw, 12px)' }}>
               {content?.labels?.stylist || 'STYLIST'}
             </h6>
@@ -104,7 +104,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
 
           {/* Date Section */}
           <div>
-            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-4"
+            <h6 className="font-proxima-nova font-semibold text-studio-blue uppercase tracking-wide mb-0 lg:mb-4"
                 style={{ fontSize: 'clamp(8px, 0.83vw, 12px)' }}>
               {content?.labels?.date || 'DATE'}
             </h6>

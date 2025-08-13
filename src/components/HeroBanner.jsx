@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HERO_IMAGES, LOGO_IMAGES } from '../constants';
+import { LOGO_IMAGES } from '../constants';
 import { useCarousel, useHeroData } from '../hooks';
 import HeroCarousel from './sections/HeroCarousel';
 import Polaroid from './common/Polaroid';
@@ -8,7 +8,7 @@ const HeroBanner = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   const [bannerHeight, setBannerHeight] = useState('70vw');
-  const { heroData, loading: heroLoading, error: heroError } = useHeroData();
+  const { heroData } = useHeroData();
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 1500);

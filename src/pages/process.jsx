@@ -1,12 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import { ANIMATIONS } from '../constants/animations';
-import { useProcessData, useHeroData } from '../hooks';
+import { useProcessData } from '../hooks';
 import PageBanner from '../components/common/PageBanner';
 
 const ProcessPage = () => {
-  const { processData, loading, error } = useProcessData();
-  const { heroData, loading: heroLoading } = useHeroData();
+  const { processData, loading } = useProcessData();
 
   return (
     <Layout title="Studio Pickens - Process">

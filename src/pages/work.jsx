@@ -9,7 +9,7 @@ const WorkPage = () => {
   const galleryRef = useRef(null);
   const workGalleryRef = useRef(null);
   const [activeFilter, setActiveFilter] = useState('ALL MEDIA');
-  const { workData, loading, error, workPageProjects, homeProjects } = useWorkData();
+  const { workData, loading, workPageProjects, homeProjects } = useWorkData();
   
   // Combine all projects for filtering
   const allProjects = [...homeProjects, ...workPageProjects];

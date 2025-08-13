@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import FAQSection from '../components/FAQSection';
 import PageBanner from '../components/common/PageBanner';
-import { TYPOGRAPHY_CLASSES } from '../constants/typography';
 
 const FAQPage = () => {
 

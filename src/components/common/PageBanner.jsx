@@ -26,7 +26,7 @@ const PageBanner = React.memo(({
             className={`absolute inset-0 w-full h-full object-${objectFit} z-20 transition-transform duration-300 ease-out ${mobileBackgroundImage ? 'hidden md:block' : ''}`}
             style={{ 
               objectPosition: transform?.objectPosition || objectPosition,
-              transform: transform ? `scale(${transform.scale || 1}) translateX(${transform.translateX || 0}px) translateY(${transform.translateY || 0}px)` : undefined
+              transform: transform ? `scale(clamp(1, 1vw + 0.8, 1.4)) translateX(${transform.translateX || 0}px) translateY(${transform.translateY || 0}px)` : undefined
             }}
           />
           
@@ -38,7 +38,7 @@ const PageBanner = React.memo(({
               className={`absolute inset-0 w-full h-full object-${objectFit} z-20 transition-transform duration-300 ease-out md:hidden`}
               style={{ 
                 objectPosition: transform?.objectPosition || objectPosition,
-                transform: transform ? `scale(${transform.scale || 1}) translateX(${transform.translateX || 0}px) translateY(${transform.translateY || 0}px)` : undefined
+                transform: transform ? `scale(clamp(1, 1vw + 0.8, 1.4)) translateX(${transform.translateX || 0}px) translateY(${transform.translateY || 0}px)` : undefined
               }}
             />
           )}

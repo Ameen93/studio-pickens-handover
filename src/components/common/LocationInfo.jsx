@@ -1,6 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { TYPOGRAPHY_CLASSES } from '../../constants/typography';
-import ImageWithPath from './ImageWithPath';
 import { validateLocationData } from '../../utils/validation';
 
 const LocationInfo = React.memo(({ 
