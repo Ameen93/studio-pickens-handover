@@ -45,8 +45,8 @@ const ProcessPage = () => {
             <svg 
               className="animate-spin hidden lg:block"
               style={{
-                width: `clamp(376px, ${77 * (processData.banner.circle?.size?.scale || 1)}vw, ${564 * (processData.banner.circle?.size?.scale || 1)}px)`,
-                height: `clamp(376px, ${77 * (processData.banner.circle?.size?.scale || 1)}vw, ${564 * (processData.banner.circle?.size?.scale || 1)}px)`,
+                width: `clamp(420px, 40vw, 700px)`,
+                height: `clamp(420px, 40vw, 700px)`,
                 animationDuration: '60s',
                 animationTimingFunction: 'linear',
                 animationIterationCount: 'infinite'
@@ -73,7 +73,7 @@ const ProcessPage = () => {
               letterSpacing: '1.44px'
             }}>
               <span className="lg:hidden" style={{ fontSize: '48px' }}>{processData.banner.title}</span>
-              <span className="hidden lg:inline" style={{ fontSize: `clamp(48px, ${82.5 * (processData.banner.heading?.size?.scale || 1) * 100 / 1920}vw, ${120 * (processData.banner.heading?.size?.scale || 1)}px)` }}>{processData.banner.title}</span>
+              <span className="hidden lg:inline" style={{ fontSize: `clamp(64px, 5.5vw, 100px)` }}>{processData.banner.title}</span>
             </h2>
             {processData.banner.subtitle && (
               <p className="font-proxima text-studio-blue mt-4" style={{ fontSize: '18px' }}>
@@ -128,7 +128,7 @@ const ProcessPage = () => {
       </section>
 
       {/* Process Gallery Section */}
-      <section className="pt-16 pb-10 px-4 md:px-10 max-w-full mx-auto">
+      <section className="pt-16 pb-10 px-4 md:px-10 max-w-7xl mx-auto">
         {loading ? (
           <div className="text-center py-16">
             <div className="text-studio-blue">Loading process steps...</div>
@@ -141,9 +141,9 @@ const ProcessPage = () => {
                 key={step.id}
                 className={`flex flex-col ${
                   step.alignment === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'
-                } items-center mb-16 gap-4`}
+                } items-center mb-16 lg:mb-8 gap-4`}
               >
-                <div className={`flex justify-center ${step.alignment === 'right' ? 'lg:justify-end lg:pl-16' : 'lg:justify-end lg:pr-16'} w-full lg:w-[55%] lg:order-1 order-2`}>
+                <div className={`flex justify-center ${step.alignment === 'right' ? 'lg:justify-center' : 'lg:justify-end lg:pr-16'} w-full lg:w-[55%] lg:order-1 order-2`}>
                   <div 
                     className="relative overflow-hidden rounded-full flex-shrink-0"
                     style={{
@@ -164,8 +164,8 @@ const ProcessPage = () => {
                   <div 
                     className="relative overflow-hidden rounded-full flex-shrink-0 hidden lg:block"
                     style={{
-                      width: '784.134375px',
-                      height: '784.134375px'
+                      width: '980.17px',
+                      height: '980.17px'
                     }}
                   >
                     <img
@@ -179,8 +179,8 @@ const ProcessPage = () => {
                     />
                   </div>
                 </div>
-                <div className={`w-full ${step.id === 5 ? 'lg:w-[30%]' : step.id === 3 ? 'lg:w-[34%]' : 'lg:w-[45%]'} ${step.alignment === 'right' ? 'lg:pl-6' : 'lg:pr-6'} lg:order-2 order-1 lg:text-left text-center px-4 lg:px-0`}>
-                  <h2 className="font-proxima-wide font-bold text-studio-blue uppercase mb-4" style={{ fontSize: '36px' }}>
+                <div className={`w-full ${step.id === 5 ? 'lg:w-[30%] lg:max-w-[440px]' : step.id === 3 ? 'lg:w-[34%] lg:max-w-[480px]' : 'lg:w-[45%] lg:max-w-[520px]'} ${step.alignment === 'right' ? 'lg:pl-6' : 'lg:pr-6'} lg:order-2 order-1 lg:text-left text-center px-4 lg:px-0`}>
+                  <h2 className="font-proxima-wide font-bold text-studio-blue uppercase mb-4 text-[23px] lg:text-[36px]">
                     <span className="lg:hidden">
                       {step.id === 1 ? (
                         <>90% science.<br />10% wigmaking.<br />100% precision.</>
