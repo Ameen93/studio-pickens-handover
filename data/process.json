@@ -1,0 +1,67 @@
+{
+  "banner": {
+    "title": "Process",
+    "subtitle": "",
+    "desktopImage": "/images/process/banner/new-Desktop_Process hero banner.png",
+    "mobileImage": "/images/process/banner/new-Mobile_Process hero banner.png",
+    "transform": {
+      "scale": 1,
+      "translateX": 0,
+      "translateY": -50,
+      "flip": false
+    },
+    "circleScale": 1,
+    "headingScale": {
+      "mobile": 1,
+      "desktop": 1.5
+    }
+  },
+  "teamCircles": {
+    "size": 1,
+    "strokeWidth": 2,
+    "gap": 20,
+    "position": {
+      "top": "340px",
+      "left": "50%"
+    }
+  },
+  "processSteps": [
+    {
+      "id": 1,
+      "title": "90% science. 10% wigmaking. 100% precision.",
+      "description": "Behind every effortless look is a refined process. At Studio Pickens, technical mastery meets personal artistry - because no two heads (or stories) are alike.",
+      "image": "/images/process/process-page2.jpg",
+      "alt": "90% science. 10% wigmaking. 100% precision.",
+      "alignment": "left",
+      "order": 1
+    },
+    {
+      "id": 3,
+      "title": "Consultation &\nHead Mapping",
+      "description": "We begin with you. A deep-dive into your needs, lifestyle, and look. Expect questions. And good ones. Mapping the head is where the science comes in. Every contour is captured for a flawless, custom fit – no shortcuts, no guesswork.",
+      "image": "/images/process/process-page4.jpg",
+      "alt": "Mapping the Head",
+      "alignment": "right",
+      "order": 2
+    },
+    {
+      "id": 4,
+      "title": "Artistry",
+      "description": "We tailor the foundation, and tie each hair by hand. Comfort and longevity are built in from the ground up.",
+      "image": "/images/process/process-page5.jpg",
+      "alt": "Artistry",
+      "alignment": "left",
+      "order": 3
+    },
+    {
+      "id": 5,
+      "title": "Refinement",
+      "description": "You see it. You feel it. You sign off when it's perfect.",
+      "image": "/images/process/process-page6.jpg",
+      "alt": "Refinement",
+      "alignment": "right",
+      "order": 4
+    }
+  ],
+  "updatedAt": "2025-07-17T13:25:07.631Z"
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "name": "background1.jpg",
+    "path": "/images/hero/background1.jpg",
+    "category": "hero",
+    "description": "Hero section background image 1",
+    "tags": ["hero", "background", "main"]
+  },
+  {
+    "name": "background2.jpg",
+    "path": "/images/hero/background2.jpg",
+    "category": "hero",
+    "description": "Hero section background image 2",
+    "tags": ["hero", "background", "main"]
+  },
+  {
+    "name": "Studio Pickens Logo.png",
+    "path": "/images/hero/Studio Pickens Logo.png",
+    "category": "logo",
+    "description": "Studio Pickens main logo",
+    "tags": ["logo", "branding", "main"]
+  },
+  {
+    "name": "Studio Pickens Logo - white.png",
+    "path": "/images/hero/Studio Pickens Logo - white.png",
+    "category": "logo",
+    "description": "Studio Pickens logo in white",
+    "tags": ["logo", "branding", "white"]
+  },
+  {
+    "name": "new-polaroid-1.png",
+    "path": "/images/polaroids/new-polaroid-1.png",
+    "category": "polaroid",
+    "description": "Polaroid image 1",
+    "tags": ["polaroid", "photo", "hero"]
+  },
+  {
+    "name": "new-polaroid-2.png",
+    "path": "/images/polaroids/new-polaroid-2.png",
+    "category": "polaroid",
+    "description": "Polaroid image 2",
+    "tags": ["polaroid", "photo", "hero"]
+  },
+  {
+    "name": "new-polaroid-3.png",
+    "path": "/images/polaroids/new-polaroid-3.png",
+    "category": "polaroid",
+    "description": "Polaroid image 3",
+    "tags": ["polaroid", "photo", "hero"]
+  },
+  {
+    "name": "polaroid1.png",
+    "path": "/images/polaroids/polaroid1.png",
+    "category": "polaroid",
+    "description": "Original polaroid 1",
+    "tags": ["polaroid", "photo", "original"]
+  },
+  {
+    "name": "polaroid2.png",
+    "path": "/images/polaroids/polaroid2.png",
+    "category": "polaroid",
+    "description": "Original polaroid 2",
+    "tags": ["polaroid", "photo", "original"]
+  },
+  {
+    "name": "polaroid3.png",
+    "path": "/images/polaroids/polaroid3.png",
+    "category": "polaroid",
+    "description": "Original polaroid 3",
+    "tags": ["polaroid", "photo", "original"]
+  },
+  {
+    "name": "editorial.jpg",
+    "path": "/images/work/editorial.jpg",
+    "category": "work",
+    "description": "Editorial work sample",
+    "tags": ["work", "editorial", "portfolio"]
+  },
+  {
+    "name": "editorial2.png",
+    "path": "/images/work/editorial2.png",
+    "category": "work",
+    "description": "Editorial work sample 2",
+    "tags": ["work", "editorial", "portfolio"]
+  },
+  {
+    "name": "editorial3.jpg",
+    "path": "/images/work/editorial3.jpg",
+    "category": "work",
+    "description": "Editorial work sample 3",
+    "tags": ["work", "editorial", "portfolio"]
+  },
+  {
+    "name": "concert.jpg",
+    "path": "/images/work/concert.jpg",
+    "category": "work",
+    "description": "Concert work sample",
+    "tags": ["work", "concert", "portfolio"]
+  },
+  {
+    "name": "filmandtv.jpg",
+    "path": "/images/work/filmandtv.jpg",
+    "category": "work",
+    "description": "Film and TV work sample",
+    "tags": ["work", "film", "tv", "portfolio"]
+  },
+  {
+    "name": "filmandtv2.png",
+    "path": "/images/work/filmandtv2.png",
+    "category": "work",
+    "description": "Film and TV work sample 2",
+    "tags": ["work", "film", "tv", "portfolio"]
+  },
+  {
+    "name": "theatre.png",
+    "path": "/images/work/theatre.png",
+    "category": "work",
+    "description": "Theatre work sample",
+    "tags": ["work", "theatre", "portfolio"]
+  },
+  {
+    "name": "musicvideo.jpg",
+    "path": "/images/work/musicvideo.jpg",
+    "category": "work",
+    "description": "Music video work sample",
+    "tags": ["work", "music", "video", "portfolio"]
+  },
+  {
+    "name": "live.jpg",
+    "path": "/images/work/live.jpg",
+    "category": "work",
+    "description": "Live performance work sample",
+    "tags": ["work", "live", "performance", "portfolio"]
+  },
+  {
+    "name": "Desktop_WORK Hero Banner v2.png",
+    "path": "/images/work/Desktop_WORK Hero Banner v2.png",
+    "category": "banner",
+    "description": "Desktop work page banner",
+    "tags": ["banner", "work", "desktop", "hero"]
+  },
+  {
+    "name": "Mobile_WORK Hero Banner v2.png",
+    "path": "/images/work/Mobile_WORK Hero Banner v2.png",
+    "category": "banner",
+    "description": "Mobile work page banner",
+    "tags": ["banner", "work", "mobile", "hero"]
+  },
+  {
+    "name": "Hero Banner Grouped.png",
+    "path": "/images/work/Hero Banner Grouped.png",
+    "category": "banner",
+    "description": "Work page banner grouped",
+    "tags": ["banner", "work", "grouped"]
+  },
+  {
+    "name": "editorialbanner.jpg",
+    "path": "/images/work/editorialbanner.jpg",
+    "category": "banner",
+    "description": "Editorial category banner",
+    "tags": ["banner", "editorial", "category"]
+  },
+  {
+    "name": "filmandtvbanner.jpg",
+    "path": "/images/work/filmandtvbanner.jpg",
+    "category": "banner",
+    "description": "Film and TV category banner",
+    "tags": ["banner", "film", "tv", "category"]
+  },
+  {
+    "name": "theatrebanner.jpg",
+    "path": "/images/work/theatrebanner.jpg",
+    "category": "banner",
+    "description": "Theatre category banner",
+    "tags": ["banner", "theatre", "category"]
+  },
+  {
+    "name": "musicbanner.png",
+    "path": "/images/work/musicbanner.png",
+    "category": "banner",
+    "description": "Music category banner",
+    "tags": ["banner", "music", "category"]
+  },
+  {
+    "name": "vogue-brag.png",
+    "path": "/images/work/brag-bar/vogue-brag.png",
+    "category": "brag",
+    "description": "Vogue brand logo for brag bar",
+    "tags": ["brag", "brand", "vogue", "logo"]
+  },
+  {
+    "name": "bazaar-brag.png",
+    "path": "/images/work/brag-bar/bazaar-brag.png",
+    "category": "brag",
+    "description": "Harper's Bazaar brand logo for brag bar",
+    "tags": ["brag", "brand", "bazaar", "logo"]
+  },
+  {
+    "name": "vanityfair-brag.png",
+    "path": "/images/work/brag-bar/vanityfair-brag.png",
+    "category": "brag",
+    "description": "Vanity Fair brand logo for brag bar",
+    "tags": ["brag", "brand", "vanityfair", "logo"]
+  },
+  {
+    "name": "hbo-brag.png",
+    "path": "/images/work/brag-bar/hbo-brag.png",
+    "category": "brag",
+    "description": "HBO brand logo for brag bar",
+    "tags": ["brag", "brand", "hbo", "logo"]
+  },
+  {
+    "name": "appletv-brag.png",
+    "path": "/images/work/brag-bar/appletv-brag.png",
+    "category": "brag",
+    "description": "Apple TV brand logo for brag bar",
+    "tags": ["brag", "brand", "appletv", "logo"]
+  },
+  {
+    "name": "paramount-brag.png",
+    "path": "/images/work/brag-bar/paramount-brag.png",
+    "category": "brag",
+    "description": "Paramount brand logo for brag bar",
+    "tags": ["brag", "brand", "paramount", "logo"]
+  },
+  {
+    "name": "warnerbros-brag.png",
+    "path": "/images/work/brag-bar/warnerbros-brag.png",
+    "category": "brag",
+    "description": "Warner Bros brand logo for brag bar",
+    "tags": ["brag", "brand", "warnerbros", "logo"]
+  },
+  {
+    "name": "Desktop_PROCESS Hero Banner v2.png",
+    "path": "/images/process/banner/Desktop_PROCESS Hero Banner v2.png",
+    "category": "process",
+    "description": "Desktop process page banner",
+    "tags": ["banner", "process", "desktop", "hero"]
+  },
+  {
+    "name": "Mobile_PROCESS Hero Banner v2.png",
+    "path": "/images/process/banner/Mobile_PROCESS Hero Banner v2.png",
+    "category": "process",
+    "description": "Mobile process page banner",
+    "tags": ["banner", "process", "mobile", "hero"]
+  },
+  {
+    "name": "Mobile_Hero Banner_process.png",
+    "path": "/images/process/banner/Mobile_Hero Banner_process.png",
+    "category": "process",
+    "description": "Mobile process hero banner alt",
+    "tags": ["banner", "process", "mobile", "hero"]
+  },
+  {
+    "name": "process-Hero-Banner-Grouped.png",
+    "path": "/images/process/banner/process-Hero-Banner-Grouped.png",
+    "category": "process",
+    "description": "Process page banner grouped",
+    "tags": ["banner", "process", "grouped"]
+  },
+  {
+    "name": "banner1.png",
+    "path": "/images/process/banner/banner1.png",
+    "category": "process",
+    "description": "Process banner variant 1",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "banner2.png",
+    "path": "/images/process/banner/banner2.png",
+    "category": "process",
+    "description": "Process banner variant 2",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "banner3.png",
+    "path": "/images/process/banner/banner3.png",
+    "category": "process",
+    "description": "Process banner variant 3",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "banner4.png",
+    "path": "/images/process/banner/banner4.png",
+    "category": "process",
+    "description": "Process banner variant 4",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "banner5.png",
+    "path": "/images/process/banner/banner5.png",
+    "category": "process",
+    "description": "Process banner variant 5",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "banner6.png",
+    "path": "/images/process/banner/banner6.png",
+    "category": "process",
+    "description": "Process banner variant 6",
+    "tags": ["banner", "process", "variant"]
+  },
+  {
+    "name": "process-page2.jpg",
+    "path": "/images/process/process-page2.jpg",
+    "category": "process",
+    "description": "Process page content image 2",
+    "tags": ["process", "content", "page"]
+  },
+  {
+    "name": "process-page3.jpg",
+    "path": "/images/process/process-page3.jpg",
+    "category": "process",
+    "description": "Process page content image 3",
+    "tags": ["process", "content", "page"]
+  },
+  {
+    "name": "process-page4.jpg",
+    "path": "/images/process/process-page4.jpg",
+    "category": "process",
+    "description": "Process page content image 4",
+    "tags": ["process", "content", "page"]
+  },
+  {
+    "name": "process-page5.jpg",
+    "path": "/images/process/process-page5.jpg",
+    "category": "process",
+    "description": "Process page content image 5",
+    "tags": ["process", "content", "page"]
+  },
+  {
+    "name": "process-page6.png",
+    "path": "/images/process/process-page6.png",
+    "category": "process",
+    "description": "Process page content image 6",
+    "tags": ["process", "content", "page"]
+  },
+  {
+    "name": "inner-circle1.jpg",
+    "path": "/images/process/inner-circle1.jpg",
+    "category": "process",
+    "description": "Process inner circle image 1",
+    "tags": ["process", "inner", "circle"]
+  },
+  {
+    "name": "inner-circle2.jpg",
+    "path": "/images/process/inner-circle2.jpg",
+    "category": "process",
+    "description": "Process inner circle image 2",
+    "tags": ["process", "inner", "circle"]
+  },
+  {
+    "name": "locations-beverley-hills.png",
+    "path": "/images/locations/locations-beverley-hills.png",
+    "category": "locations",
+    "description": "Beverly Hills location image",
+    "tags": ["location", "beverly", "hills"]
+  },
+  {
+    "name": "locations-london.png",
+    "path": "/images/locations/locations-london.png",
+    "category": "locations",
+    "description": "London location image",
+    "tags": ["location", "london"]
+  },
+  {
+    "name": "locations-new-york.png",
+    "path": "/images/locations/locations-new-york.png",
+    "category": "locations",
+    "description": "New York location image",
+    "tags": ["location", "new", "york"]
+  },
+  {
+    "name": "footer-signature.png",
+    "path": "/images/footer/footer-signature.png",
+    "category": "footer",
+    "description": "Footer signature image",
+    "tags": ["footer", "signature"]
+  },
+  {
+    "name": "footer-signature-white.png",
+    "path": "/images/footer/footer-signature-white.png",
+    "category": "footer",
+    "description": "Footer signature image in white",
+    "tags": ["footer", "signature", "white"]
+  },
+  {
+    "name": "4963b601-8788-4697-b9fc-5a0ce4c4e5b4.jpeg",
+    "path": "/images/faq/4963b601-8788-4697-b9fc-5a0ce4c4e5b4.jpeg",
+    "category": "faq",
+    "description": "FAQ section image",
+    "tags": ["faq", "content"]
+  }
+]

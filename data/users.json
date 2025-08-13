@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@studiopickens.com",
+    "password": "$2b$10$NUfu8bLfrmK08jFEPTfCe.xsmfz28.i9QL3dhlxFRZC4Cjpr//JXm",
+    "role": "admin",
+    "createdAt": "2025-07-17T08:32:33.278Z",
+    "lastLogin": "2025-07-17T14:08:32.440Z"
+  }
+]

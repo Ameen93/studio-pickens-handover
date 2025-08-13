@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "banner": {
+    "title": "Locations",
+    "animationSettings": {
+      "animationDelay": 1500,
+      "transitionDuration": 800,
+      "circleCount": 6
+    }
+  },
+  "locations": [
+    {
+      "id": 1,
+      "name": "New York",
+      "address": "283 Wythe Avenue\nBrooklyn, NY 11249\nUSA",
+      "image": "/images/locations/new-york-studio.jpg",
+      "imageAlt": "New York Studio",
+      "mapsUrl": "https://maps.google.com/?q=283+Wythe+Avenue+Brooklyn+NY+11249+USA",
+      "variant": "left",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "Beverly Hills",
+      "address": "9465 Wilshire Boulevard\nBeverly Hills, CA 90212\nUSA",
+      "image": "/images/locations/beverly-hills-studio.jpg",
+      "imageAlt": "Beverly Hills Studio",
+      "mapsUrl": "https://maps.google.com/?q=9465+Wilshire+Boulevard+Beverly+Hills+CA+90212+USA",
+      "variant": "right",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "address": "17 Langley Court\nCovent Garden\nLondon WC2E 9JY\nUnited Kingdom",
+      "image": "locations-london.png",
+      "imageAlt": "London Studio",
+      "mapsUrl": "https://maps.google.com/?q=17+Langley+Court+Covent+Garden+London+WC2E+9JY+United+Kingdom",
+      "variant": "left",
+      "order": 3,
+      "visible": false
+    }
+  ],
+  "createdAt": "2024-07-15T19:00:00.000Z",
+  "updatedAt": "2025-07-17T18:20:00.000Z"
+}
