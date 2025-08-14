@@ -304,8 +304,8 @@ const StoryPage = () => {
                 }}
               >
                 {/* Circle Content */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="flex flex-col items-center justify-center text-center px-6 max-w-lg w-full h-full">
+                <div className="absolute inset-0 flex items-center justify-center" style={{ transform: 'translateY(-30px)' }}>
+                  <div className="flex flex-col items-center justify-center text-center px-6 max-w-xl w-full h-full">
                     <div className="flex flex-col items-center justify-center">
                       <h3 className="font-proxima-wide font-bold text-studio-blue uppercase text-center mb-4" style={{ fontSize: 'clamp(24px, 5vw, 30px)', lineHeight: '1.1' }}>
                         The Art of<br />Figuring It Out
@@ -677,7 +677,7 @@ const StoryPage = () => {
 
               {/* Polaroid at 9:15 - 2024 */}
               <div 
-                className="absolute"
+                className="absolute md:hidden"
                 style={{
                   top: '45%',
                   left: '-5%',
@@ -697,7 +697,7 @@ const StoryPage = () => {
               
               {/* Polaroid at 3:15 - 2024 */}
               <div 
-                className="absolute"
+                className="absolute md:hidden"
                 style={{
                   top: '55%',
                   right: '-5%',
@@ -878,7 +878,7 @@ const StoryPage = () => {
                 }}
               >
                 {/* Circle Content */}
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center md:transform md:translate-y-8">
                   <div className="flex flex-col items-center justify-center text-center px-6 max-w-lg w-full h-full">
                     <div className="flex flex-col items-center justify-center">
                       <h3 className="font-proxima-wide font-bold text-studio-blue uppercase text-center mb-4" style={{ fontSize: 'clamp(24px, 5vw, 30px)', lineHeight: '1.1' }}>
