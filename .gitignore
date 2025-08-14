@@ -10,6 +10,15 @@
 
 # production
 /build
+build/
+dist/
+
+# Large image files (uploads are needed so not ignored)
+
+# Temporary and cache files
+.cache/
+.parcel-cache/
+*.cache
 
 # development files
 .env.local

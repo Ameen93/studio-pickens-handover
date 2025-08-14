@@ -20,9 +20,13 @@ const ProcessPage = () => {
           mobileBackgroundImage={processData.banner.mobileImage}
           altText="Process banner background"
           objectFit="contain"
-          height="clamp(700px, 70vw, 1200px)"
+          height="clamp(620px, 70vw, 1200px)"
           className="-mt-16 -mb-24 lg:-mb-32"
-          transform={processData.banner.transform}
+          transform={{
+            ...processData.banner.transform,
+            objectPosition: "center 30%",
+            mobileObjectPosition: "center 20%"
+          }}
         >
           {/* Rotating Dashed Circle */}
           <div className="absolute w-full flex justify-center z-5 top-[42%] lg:top-1/2 -translate-y-1/2">
@@ -85,7 +89,7 @@ const ProcessPage = () => {
 
       {/* Our Approach Section - Top */}
       <section 
-        className="relative flex items-center justify-center bg-nav-blue pt-20 pb-16 md:py-0 min-h-[280px] md:h-[clamp(280px,28vw,320px)]"
+        className="relative flex items-center justify-center bg-studio-blue pt-20 pb-16 md:py-0 min-h-[280px] md:h-[clamp(280px,28vw,320px)]"
       >
         <div className="max-w-screen-xl mx-auto px-4 text-center">
           <div className="flex flex-col items-center max-w-4xl mx-auto">
@@ -216,7 +220,7 @@ const ProcessPage = () => {
 
       {/* Thoughtfully Sourced Section - Before Polaroid Carousel */}
       <section 
-        className="relative flex items-center justify-center bg-nav-blue pt-20 pb-16 md:py-0 min-h-[280px] md:h-[clamp(280px,28vw,320px)]"
+        className="relative flex items-center justify-center bg-studio-blue pt-20 pb-16 md:py-0 min-h-[280px] md:h-[clamp(280px,28vw,320px)]"
       >
         <div className="max-w-screen-xl mx-auto px-4 text-center">
           <div className="flex flex-col items-center max-w-4xl mx-auto">

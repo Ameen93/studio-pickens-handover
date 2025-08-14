@@ -1,153 +1,225 @@
-# Studio Pickens - Production Website
+# Studio Pickens React Application - Production Ready
 
-A premium creative studio website built with React and TypeScript, featuring responsive design and modern animations.
+This is the original React application that served as the reference for the WordPress theme implementation.
 
-## Project Overview
+## 🎯 Project Overview
 
-Studio Pickens is a high-end creative studio website showcasing:
-- Premium responsive design optimized for desktop and mobile
-- Smooth scroll animations and floating effects
-- High-quality image galleries with custom layouts
-- Professional contact and FAQ sections
+This React application represents the production-ready Studio Pickens website featuring:
+- **Premium design** with custom animations and interactions
+- **Responsive layouts** across all device types
+- **Content management** via JSON data files
+- **Express.js backend** with authentication and file upload
+- **Performance optimized** with lazy loading and smooth animations
 
-## Tech Stack
+## 📁 Project Structure
 
-### Frontend
-- **React 19** with TypeScript
-- **Tailwind CSS** for styling
-- **React Testing Library** for testing
-- **Create React App** build system
-
-### Backend
-- **Express.js** server for API endpoints
-- **JSON file storage** for content data
-- **CORS** enabled for cross-origin requests
-
-## Getting Started
-
-### Prerequisites
-- Node.js 16+ and npm
-- Git
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone [repository-url]
-cd studio-pickens-handover
+```
+studio-pickens-handover/
+├── 📄 React Application
+│   ├── src/                   # React source code
+│   │   ├── components/        # Reusable components
+│   │   ├── pages/             # Page components
+│   │   ├── hooks/             # Custom React hooks
+│   │   ├── constants/         # Design system constants
+│   │   └── utils/             # Utility functions
+│   ├── public/                # Static assets
+│   └── server.js              # Express backend server
+│
+├── 📊 Data Files
+│   └── data/                  # JSON content files
+│       ├── hero.json          # Homepage content
+│       ├── work.json          # Portfolio items
+│       ├── process.json       # Process page content
+│       ├── story.json         # About/story content
+│       ├── locations.json     # Studio locations
+│       ├── contact.json       # Contact information
+│       └── faq.json           # FAQ items
+│
+└── 🎨 Assets
+    └── public/images/         # All organized images
+        ├── hero/              # Homepage banners and logos
+        ├── work/              # Portfolio project images
+        ├── process/           # Process page imagery
+        ├── story/             # Story page photos
+        ├── locations/         # Studio location images
+        ├── polaroids/         # Polaroid gallery images
+        └── uploads/           # User uploaded content
 ```
 
-2. Install dependencies:
+## ⚡ Quick Start
+
+### Development Mode
 ```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development servers:
-
-**Frontend** (runs on http://localhost:3000):
-```bash
+# Start React development server (port 3000)
 npm start
+
+# Start Express API server (port 3001)
+node server.js
+
+# Or start both with the startup script
+./start-production.sh
 ```
 
-**Backend** (runs on http://localhost:3001):
+### Production Deployment
 ```bash
-npm run server
+# Build for production
+npm run build
+
+# Start production server
+npm run start:production
 ```
 
-4. Open http://localhost:3000 to view the website
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── common/        # Shared components (Header, Footer, etc.)
-│   ├── sections/      # Page-specific sections
-│   └── ui/           # Base UI elements
-├── pages/            # Main pages (Home, Work, Process, Story, etc.)
-├── hooks/            # Custom React hooks for data fetching
-├── constants/        # Typography system and animations
-├── utils/            # Utilities and API client
-└── __tests__/        # Test files
-
-data/                 # JSON content files
-public/
-├── images/          # Static image assets
-└── data/           # Public JSON data files
-
-server.js            # Express server
-```
-
-## Available Scripts
-
-- `npm start` - Start React development server
-- `npm run build` - Build for production
-- `npm test` - Run tests
-- `npm run server` - Start Express API server
-
-## Content Management
-
-Content is stored in JSON files in the `data/` directory:
-- `hero.json` - Homepage hero section
-- `work.json` - Portfolio projects
-- `process.json` - Process page content
-- `story.json` - About/story content
-- `locations.json` - Location information
-- `contact.json` - Contact details
-- `faq.json` - FAQ items
-
-## API Endpoints
-
-The server provides read-only API endpoints:
-- `GET /api/hero` - Hero section data
-- `GET /api/work` - Work portfolio data
-- `GET /api/process` - Process page data
-- `GET /api/story` - Story page data
-- `GET /api/locations` - Location data
-- `GET /api/contact` - Contact information
-- `GET /api/faq` - FAQ data
-
-## Design Features
+## 🎨 Design System
 
 ### Typography
-- **Primary Font**: Proxima Nova Extra Wide
-- **Decorative Font**: Lovtony Script
-- **Colors**: Background `#F8F7F7`, Primary `#0025B8`, Accent `#FF7E46`
+- **Primary**: Proxima Nova Extra Wide (headings)
+- **Body**: Proxima Nova (body text)
+- **Monospace**: Cutive Mono (detail text)
+- **Script**: Lovtony Script (decorative)
 
-### Responsive Design
-- Mobile-first approach with Tailwind breakpoints
-- Optimized layouts for 1080p and 1440p+ displays
-- Touch-friendly navigation and interactions
-
-### Animations
-- Scroll-triggered animations with floating effects
-- Smooth transitions and hover states
-- Rotating elements and carousel components
-
-## Building for Production
-
-1. Build the React app:
-```bash
-npm run build
+### Color Palette
+```css
+:root {
+  --studio-blue: #0025B8;
+  --studio-orange: #FF7E46;
+  --studio-bg: #F8F7F7;
+  --nav-blue: #08249F;
+}
 ```
 
-2. The built files will be in the `build/` directory
-3. Deploy both the built React app and the Express server
-4. Ensure the server can serve static files and API routes
+### Key Features
+- **Responsive design** with mobile-first approach
+- **Smooth animations** using React state and CSS transitions
+- **Image optimization** with lazy loading and responsive sizing
+- **Content management** through JSON data files
+- **Backend API** for dynamic content and uploads
 
-## Browser Support
+## 📊 Content Data Structure
 
-- Chrome, Firefox, Safari (latest versions)
-- Mobile browsers on iOS and Android
-- Optimized for desktop viewing with responsive mobile support
+All content is managed through JSON files in `/data/` directory:
 
-## Performance
+### Hero Content (`hero.json`)
+```json
+{
+  "carousel": [
+    {
+      "id": 1,
+      "desktop": "image-path.jpg",
+      "mobile": "image-path-mobile.jpg",
+      "alt": "Description"
+    }
+  ],
+  "polaroids": [...],
+  "atelier": {...}
+}
+```
 
-- Optimized images with proper sizing
-- Efficient component rendering with React 19
-- Minimal JavaScript bundle with code splitting
-- Fast loading times with responsive image handling
+### Work Portfolio (`work.json`)
+```json
+[
+  {
+    "id": 1,
+    "title": "Project Name",
+    "category": "FILM & TV",
+    "image": "image-path.jpg",
+    "mobileImage": "mobile-image-path.jpg",
+    "side": "left",
+    "showOnWorkPage": true,
+    "content": {
+      "stylist": "Name",
+      "photographer": "Name",
+      "date": "2024"
+    }
+  }
+]
+```
+
+## 🔧 Technical Specifications
+
+### Frontend Stack
+- **React 19** with TypeScript
+- **Tailwind CSS** for styling
+- **Custom hooks** for data management
+- **Context API** for state management
+
+### Backend Stack
+- **Express.js** server
+- **File-based JSON storage**
+- **JWT authentication**
+- **Multer** for file uploads
+- **CORS** enabled for development
+
+### Performance Features
+- **Lazy loading** images
+- **Intersection Observer** for scroll animations
+- **Optimized bundle** with code splitting
+- **Responsive images** with picture elements
+
+## 🚀 Deployment Notes
+
+### Environment Variables
+```bash
+JWT_SECRET=your-secret-key
+ADMIN_PASSWORD=your-admin-password
+PORT=3001
+NODE_ENV=production
+```
+
+### Production Checklist
+- [ ] Set strong JWT_SECRET
+- [ ] Configure secure ADMIN_PASSWORD
+- [ ] Set appropriate CORS origins
+- [ ] Optimize images for web
+- [ ] Test all functionality
+- [ ] Monitor performance
+
+## 📱 Browser Support
+
+- **Chrome** 90+
+- **Firefox** 88+
+- **Safari** 14+
+- **Edge** 90+
+- **Mobile browsers** (iOS Safari, Chrome Mobile)
+
+## 🔗 Related Projects
+
+This React application was used as the reference for creating:
+- **WordPress Theme** - Pixel-perfect WordPress implementation
+- **HTML Previews** - Standalone preview files
+- **Testing Suite** - Quality assurance tools
 
 ---
 
-**Note**: This is a production-ready handover version with all administrative features and development tools removed for security and simplicity.
+## 📞 Technical Notes
+
+### Data Management
+- All content stored in JSON files under `/data/`
+- Images organized by page/section in `/public/images/`
+- No database required - file-based content system
+- Admin panel for content management (if implemented)
+
+### API Endpoints
+- `GET/PUT /api/hero` - Hero content management
+- `GET/PUT /api/work` - Portfolio items
+- `GET/PUT /api/process` - Process content
+- `GET/PUT /api/story` - Story page content
+- `GET/PUT /api/locations` - Location information
+- `GET/PUT /api/contact` - Contact details
+- `GET/POST/DELETE /api/faq` - FAQ management
+- `POST /api/upload` - File upload handling
+
+### Security Features
+- JWT-based authentication
+- Rate limiting on API endpoints
+- Input validation and sanitization
+- CORS configuration
+- Secure file upload handling
+
+---
+
+**This React application served as the reference implementation for the WordPress theme conversion, ensuring pixel-perfect design fidelity across all pages and interactions.**
+
+© 2024 Studio Pickens React Application

@@ -83,7 +83,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
               {content?.labels?.photographer || 'PHOTOGRAPHER'}
             </h6>
             <p className="font-['Cutive_Mono'] font-normal uppercase text-studio-blue pl-2 py-2"
-               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '50%' }}>
+               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '120%' }}>
               {content?.photographer}
             </p>
             <div className="w-5/8 h-px border-b border-dotted border-studio-blue mt-1"></div>
@@ -96,7 +96,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
               {content?.labels?.stylist || 'STYLIST'}
             </h6>
             <p className="font-['Cutive_Mono'] font-normal uppercase text-studio-blue pl-2 py-2"
-               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '50%' }}>
+               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '120%' }}>
               {content?.stylist}
             </p>
             <div className="w-5/8 h-px border-b border-dotted border-studio-blue mt-1"></div>
@@ -109,7 +109,7 @@ const WorkItem = ({ project, content, getCirclePosition, getTextRotation, getTex
               {content?.labels?.date || 'DATE'}
             </h6>
             <p className="font-['Cutive_Mono'] font-normal uppercase text-studio-blue pl-2 py-2"
-               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '50%' }}>
+               style={{ fontSize: 'clamp(6px, 1.11vw, 16px)', lineHeight: '120%' }}>
               {content?.date}
             </p>
             <div className="w-5/8 h-px border-b border-dotted border-studio-blue mt-1"></div>
