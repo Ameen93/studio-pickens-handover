@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'studio-bg': '#F8F7F7',
-        'studio-blue': '#0025B8',
+        'studio-blue': '#08249F',
         'studio-orange': '#FF7E46',
         'nav-blue': '#08249F',
         'nav-orange': '#FF7E46',

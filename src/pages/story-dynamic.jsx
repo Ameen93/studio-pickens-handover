@@ -201,7 +201,7 @@ const StoryPage = () => {
                   cy="50%"
                   r="calc(50% - 2px)"
                   fill="none"
-                  stroke="#0025B8"
+                  stroke="#08249F"
                   strokeWidth={isDesktop ? "2" : "1"}
                   strokeDasharray={isDesktop ? "10 10" : "5 5"}
                 />

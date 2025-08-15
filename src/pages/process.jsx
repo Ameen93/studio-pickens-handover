@@ -60,7 +60,7 @@ const ProcessPage = () => {
                 cy="50%"
                 r="calc(50% - 2px)"
                 fill="none"
-                stroke="#0025B8"
+                stroke="#08249F"
                 strokeWidth="2"
                 strokeDasharray="10 10"
               />
